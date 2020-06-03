@@ -10,4 +10,8 @@ class User
     @knowledge.push(knowledge)
   end
   
+  def knowledge
+    @knowledge
+  end
+  
 end
